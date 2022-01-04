@@ -3,9 +3,14 @@
 ### Remember:
 - Pseudocode!!
 - Ask clarifying questions
-
+- Added a div to the square component
+- Mapped over the Square component
+- Passed the value from the array in state
+ (aka the question mark)
 ### User Stories
 - As a user, I can see a page with a 3 by 3 grid board game with a question mark in each square.
+- Branch: gameboard
+
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji.
