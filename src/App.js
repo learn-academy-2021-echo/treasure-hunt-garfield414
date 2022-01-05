@@ -10,14 +10,23 @@ class App extends Component {
     }
   }
 
+handleGamePlay => {
+  alert(index)
+}
   render(){
     return (
       <>
         <h1>Treasure Hunt Game</h1>
         <div className="gameboard">
-        {this.state.board.map(value => {
+        {this.state.board.map(value, index)
+        => {
         return(
-          <Square value={value} />
+          <Square
+           value={value}
+           key={index}
+           index{props}
+           handleGamePlay={this.handleGamePlay}
+           />
         )
     })}
     </div>
